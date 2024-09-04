@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Image Generator</h1>
+        <div class="image-frame">
+            <img id="imageDisplay" src="" alt="Image">
+        </div>
+        <div class="loading-wrapper" id="loadingWrapper">
+            <div class="loading-bar" id="loadingBar"></div>
+        </div>
+        <select id="apiSelect">
+            <option value="dog.ceo">Dog V1</option>
+            <option value="random.dog">Dog V2</option>
+            <option value="dog.v3">Dog V3</option>
+            <option value="cat.api">Cat V1</option>
+            <option value="fox.api">Fox V1</option>
+            <option value="human.face">Human Face AI</option>
+        </select>
+        <button id="generateBtn">Tạo ảnh</button>
+        <button id="toggleDarkModeBtn">Chế độ tối</button>
+        <p id="loadingTime"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
