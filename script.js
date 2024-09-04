@@ -29,7 +29,7 @@ function fetchImage(api) {
     } else if (api === 'random.dog') {
         apiUrl = 'https://random.dog/woof.json';
     } else if (api === 'dog.v3') {
-        apiUrl = 'https://place.dog/500/500';
+       imageElement.src = 'https://place.dog/500/500';
     } else if (api === 'cat.api') {
         apiUrl = 'https://api.thecatapi.com/v1/images/search';
     } else if (api === 'fox.api') {
